@@ -4,7 +4,7 @@
 directory <- "~/Desktop/R Scripts"
 #specify mass spec samples, replicates should be denoted with the same numbers
 sample <- c(1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4)
-#Optioanl, whether to fix random numbers
+#Optional, whether to fix random numbers
 set.seed(123)
 numsample <- length(sample)
 library(data.table)
