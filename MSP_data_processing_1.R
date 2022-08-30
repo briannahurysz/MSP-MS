@@ -9,7 +9,7 @@ sample <- c(1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4)
 
 
 
-##Optioanl, whether to fix random number generation
+##Optional, whether to fix random number generation
 #set.seed(12345)
 numsample <- length(sample)
 library(data.table)
