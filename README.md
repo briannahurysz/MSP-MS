@@ -4,13 +4,13 @@ Contained here are the scripts used by the O'Donoghue lab at UC San Diego for an
 Instructions on how to use these scripts are as follows:
 
 To prepare to use the R scripts, the following packages must be downloaded
-(data.table)
-(qvalue)
-(fitdistrplus)
-(truncnorm)
-(gtools)
+data.table
+qvalue
+fitdistrplus
+truncnorm
+gtools
 
-These can be installed using "install.packages("package_name")
+These can be installed using command: install.packages("package_name")
 
 
 1) Obtain protein-peptides.csv files from the label free quantification and PEAKS 18 in the PEAKS software. Label free quantification should be edited to contain no filtering and no normalization. The PEAKS output should have the -10logp >/= adjusted such that under Table 3 the FDR (Peptide Sequences) is </= 1.0%.
