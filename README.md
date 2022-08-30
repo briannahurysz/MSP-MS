@@ -3,7 +3,7 @@ Contained here are the scripts used by the O'Donoghue lab at UC San Diego for an
 
 Instructions on how to use these scripts are as follows:
 
-To prepare to use the R scripts, the following packages must be downloaded
+To prepare to use the R scripts, the following packages must be downloaded:
 data.table
 qvalue
 fitdistrplus
